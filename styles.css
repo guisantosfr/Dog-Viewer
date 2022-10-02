@@ -28,6 +28,10 @@ header h1{
   display: none;
 }
 
+.sub-breeds-block{
+  display: none;
+}
+
 .show{
   display: block;
 }

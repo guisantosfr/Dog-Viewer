@@ -1,37 +1,33 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header h1{
+header h1 {
   font-size: 3rem;
 }
 
-@keyframes spin{
-  to{
+@keyframes spin {
+  to {
     transform: rotateZ(360deg);
   }
 }
 
-.spinner{
+.spinner {
   animation: 1s spin linear infinite;
   margin-top: 4em;
   display: none;
 }
 
-.dog-img{
+.dog-img {
   display: none;
 }
 
-.sub-breeds-block{
-  display: none;
-}
-
-.show{
+.show {
   display: block;
 }
